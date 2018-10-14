@@ -1,0 +1,49 @@
+.container{
+    background-color: black;
+    height:100vh;
+}
+
+.row{
+    height: 100%;
+}
+
+.paysage{
+    background-color: darkgreen;
+    height: 25%;
+    opacity: 0.6;
+}
+
+#voiture{
+    width: 8vh;
+    height: 8vh;
+    position: absolute;
+
+    left: 600px;
+    top:400px;
+
+}
+
+#voiture2{
+    width: 8vh;
+    height: 8vh;
+    position: absolute;
+
+    left:1000px;
+    top:400px;
+
+}
+
+
+.rotation{
+    /* transform: rotate(0.5turn); */
+}
+
+.explosion{
+
+    /* background-image: url("../img/explosion.png");
+    z-index: 1; */
+
+
+    content:url("../img/explosion.png");
+    /* background-color: crimson; */
+}
